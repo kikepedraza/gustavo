@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*::selection{
+  background-color: chartreuse;
+}
+
+.enlace{
+  display: block;
+  background : tomato ;
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 20px;
+  border-bottom: solid 3px #000;
+  transition: 0.5s;
+
+
+}
+  .enlace:link{
+  background-color: red ;
+  color: blue
+  }
+  .enlace:visited{
+    background-color: aqua;
+  }
+  .enlace:hover{
+    background-color: blue;
+  }
+  p{
+    width: 70%;
+    margin: 0 auto;
+  }
+  p::before, p::after {
+    content: "";
+    width: 100%;
+    height: 4%;
+    
+    display: inline;
+    border: solid 5px chocolate;
+
+    
+
+    
+  }
